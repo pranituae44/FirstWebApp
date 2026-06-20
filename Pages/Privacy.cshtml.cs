@@ -7,6 +7,7 @@ namespace FirstWebApp.Pages
     {
         public void OnGet()
         {
+            throw new Exception("An error occurred while processing your request.");
         }
     }
 

@@ -4,6 +4,14 @@
     <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationInsightsResourceId>/subscriptions/d14075b6-69e9-4eda-bd99-89cc9055c0cf/resourceGroups/az-pranit-rg/providers/microsoft.insights/components/az-pranit-webapp3</ApplicationInsightsResourceId>
+    <UserSecretsId>ed9edf7c-129f-4123-ba23-eea44a8beb8d</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.21.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights" Version="3.1.2" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="3.1.0" />
+  </ItemGroup>
 
 </Project>
